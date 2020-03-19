@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="10dp"
+    android:rowCount="3"
+    android:columnCount="4"
+
+    >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/k_menu_item"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+
+
+
+
+
+
+</GridLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kokoa Talk</string>
+    <string name="news">news</string>
+    <string name="sharp">sharp</string>
+    <string name="freinds">friends</string>
+    <string name="setting">setting</string>
+</resources>

@@ -10,8 +10,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class Fragment4 extends Fragment {
     final String TAG = "WEATHER";
+    String result;
 
     @Nullable
     @Override
@@ -22,11 +29,14 @@ public class Fragment4 extends Fragment {
 //        String data = httpClient.getWeatherJson();
 //        Log.d(TAG, "Weather Data: "+data);
 
-        WeatherHttpClient client = new WeatherHttpClient();
-        String data = client.getWeatherData("2172797");
-        Log.d(TAG, "onCreateView: "+data);
+//        WeatherHttpClient client = new WeatherHttpClient();
+//        String data = client.getWeatherData("2172797");
+//        Log.d(TAG, "onCreateView: "+data);
+
 
 
         return rootView;
     }
+
+
 }
